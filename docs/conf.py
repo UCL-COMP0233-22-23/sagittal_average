@@ -10,9 +10,9 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
+sys.path.insert(0, os.path.abspath('..'))
 
 
 # -- Project information -----------------------------------------------------
@@ -35,6 +35,7 @@ extensions = [
     'sphinx.ext.coverage', # Automatically check if functions are documented
     'sphinx.ext.mathjax',  # Allow support for algebra
     'sphinx.ext.viewcode', # Include the source code in documentation
+    'sphinx.ext.githubpages', # Publish HTML docs in GitHub Pages¶
 ]
 
 # Add any paths that contain templates here, relative to this directory.
