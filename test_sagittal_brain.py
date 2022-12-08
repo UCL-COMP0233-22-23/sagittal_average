@@ -7,3 +7,11 @@ np.savetxt('brain_sample.csv', sample, delimiter=',', fmt='%i') #save as csv and
 
 expected = np.asarray([[0, 0, 1]])
 np.savetxt('brain_expected.csv',expected, delimiter=',', fmt='%i') #save as csv and integers
+
+
+
+read_output = np.loadtxt('brain_average.csv', delimiter=',') #read the file (ie convert to array)
+
+
+#test:
+np.testing.assert_array_equal(read_output, expected)
