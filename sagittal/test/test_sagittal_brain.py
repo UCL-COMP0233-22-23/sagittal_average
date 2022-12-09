@@ -1,4 +1,4 @@
-from sagittal_brain import *
+from sagittal.sagittal_brain import *
 import subprocess
 #RUN FROM BASH TERMINAL
 
