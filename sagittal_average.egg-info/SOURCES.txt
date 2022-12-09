@@ -1,0 +1,13 @@
+setup.py
+sagittal_average/__init__.py
+sagittal_average/command.py
+sagittal_average/sagittal_brain.py
+sagittal_average.egg-info/PKG-INFO
+sagittal_average.egg-info/SOURCES.txt
+sagittal_average.egg-info/dependency_links.txt
+sagittal_average.egg-info/entry_points.txt
+sagittal_average.egg-info/requires.txt
+sagittal_average.egg-info/top_level.txt
+sagittal_average/test/__init__.py
+sagittal_average/test/test_call_command.py
+sagittal_average/test/test_sagittal_brain.py
