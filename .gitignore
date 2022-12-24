@@ -1,0 +1,11 @@
+Sagittal_Average.egg-info/
+
+.pytest_cache
+Sagittal_Average/__pycache__
+Sagittal_Average/tests/__pycache__
+
+Sagittal_Average/tests/brain_average.csv
+Sagittal_Average/tests/brain_sample.csv
+
+brain_sample.csv
+brain_average.csv
