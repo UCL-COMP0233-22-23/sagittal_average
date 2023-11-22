@@ -1,0 +1,27 @@
+[project]
+name = "sagittal_average"
+description = "Calculate the averages through a sagittal plane."
+authors = [{ name = "Charlene Bultoc", email = "c.bultoc@neurolab.ac.uk" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: BSD License",
+]
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = ["numpy"]
+
+[project.scripts]
+sagverage = "sagittal_average.command:process"
+
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["sagittal_average*"]
+exclude = ["docs*", "tests*"]
+
+[tool.setuptools_scm]
